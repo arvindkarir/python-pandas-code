@@ -1,0 +1,40 @@
+Kazakhstan has 2 loan/s, total of 33000.0
+['IBRD83610  Justice Sector Insttnl Strengthenin', '30000.00']
+['IBRD81111  Justice or not Insttnl Strengthenin', '3000.00']
+Philippines has 1 loan/s, total of 122617.91
+['IBRD81190  PH - Regl Infrastructure for Growth', '122617.91']
+Armenia has 1 loan/s, total of 125000.0
+['IBRD83900  Trade Promotion and Quality Infrast', '125000.00']
+Georgia has 1 loan/s, total of 150000.0
+['IBRD83770  Transmission Grid Strengthening Pro', '150000.00']
+China has 2 loan/s, total of 400000.0
+['IBRD83780  Fujian Fishing Ports Project', '150000.00']
+['IBRD83700  Jiaozuo Green Transport & Safety Im', '250000.00']
+Azerbaijan has 1 loan/s, total of 375000.0
+["IBRD83810  NAT'L WATER SUPPLY & SAN II", '375000.00']
+Turkey has 3 loan/s, total of 1125981971.9
+['IBRD79040  ACCESS TO FINANCE FOR SME II', '200000000.00']
+['IBRD47840  SEISMIC RISK MITIGATION', '268947771.90']
+['IBRD79070  ESES DPL2', '657034200.00']
+Mexico has 3 loan/s, total of 195494000.0
+['IBRD71360  MX Programmatic EnvSAL', '0.00']
+['IBRD73670  MX Competitiveness DPL', '195494000.00']
+['IBRD71260  MX Tax Reform Adjustment Loan', '0.00']
+Croatia has 1 loan/s, total of 202102500.0
+['IBRD83640  ECONOMIC RECOVERY DPL 2', '202102500.00']
+Brazil has 3 loan/s, total of 537854674.2
+['IBRD83760  BR Amazonas DPL', '216000000.00']
+['IBRD83790  RS:Strengthening Fiscal & Water Mgm', '280000000.00']
+['IBRD73830  BR - Road Transport Project', '41854674.20']
+Tunisia has 1 loan/s, total of 242507718.5
+['IBRD83580  TN - Governance Opportunities Jobs', '242507718.50']
+Morocco has 1 loan/s, total of 291073945.6
+['IBRD83630  MA Capital Market Develop. & SME Fi', '291073945.60']
+Guatemala has 1 loan/s, total of 340000000.0
+['IBRD83850  GT 2nd Prog DPL Fiscal Space', '340000000.00']
+Argentina has 1 loan/s, total of 197750000.1
+['IBRD73690  AR-Heads of Household Transition Pr', '197750000.10']
+Indonesia has 1 loan/s, total of 500000000.0
+['IBRD79060  ID-BOS KITA Project', '500000000.00']
+Poland has 1 loan/s, total of 899010000.0
+['IBRD83840  PL DPL Resiliance and Growth', '899010000.00']

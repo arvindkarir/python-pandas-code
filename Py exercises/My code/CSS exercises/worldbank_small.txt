@@ -1,0 +1,24 @@
+IBRD83610	Justice Sector Insttnl Strengthenin	Kazakhstan ( KZ ) 	$42000 / $12000
+IBRD81111	Justice or not Insttnl Strengthenin	Kazakhstan ( KZ ) 	$4000 / $1000
+IBRD81190	PH - Regl Infrastructure for Growth	Philippines ( PH )	$122617.91 / $0
+IBRD83900	Trade Promotion and Quality Infrast	Armenia ( AM )	$125000 / $0
+IBRD83770	Transmission Grid Strengthening Pro	Georgia ( GE )	$150000 / $0
+IBRD83780	Fujian Fishing Ports Project	China ( CN )	$150000 / $0
+IBRD83700	Jiaozuo Green Transport & Safety Im	China ( CN )	$250000 / $0
+IBRD83810	NAT'L WATER SUPPLY & SAN II	Azerbaijan ( AZ )	$375000 / $0
+IBRD79040	ACCESS TO FINANCE FOR SME II	Turkey ( TR )	$200000000 / $0
+IBRD71360	MX Programmatic EnvSAL	Mexico ( MX )	$202020000 / $202020000
+IBRD83640	ECONOMIC RECOVERY DPL 2	Croatia ( HR )	$202102500 / $0
+IBRD83760	BR Amazonas DPL	Brazil ( BR )	$216000000 / $0
+IBRD83580	TN - Governance Opportunities Jobs	Tunisia ( TN )	$242507718.5 / $0
+IBRD83790	RS:Strengthening Fiscal & Water Mgm	Brazil ( BR )	$280000000 / $0
+IBRD83630	MA Capital Market Develop. & SME Fi	Morocco ( MA )	$291073945.6 / $0
+IBRD73670	MX Competitiveness DPL	Mexico ( MX )	$300760000 / $105266000
+IBRD71260	MX Tax Reform Adjustment Loan	Mexico ( MX )	$303040000 / $303040000
+IBRD83850	GT 2nd Prog DPL Fiscal Space	Guatemala ( GT )	$340000000 / $0
+IBRD73690	AR-Heads of Household Transition Pr	Argentina ( AR )	$350000000 / $152249999.9
+IBRD47840	SEISMIC RISK MITIGATION	Turkey ( TR )	$426163774.9 / $157216003
+IBRD73830	BR - Road Transport Project	Brazil ( BR )	$433240074.4 / $391385400.2
+IBRD79060	ID-BOS KITA Project	Indonesia ( ID )	$500000000 / $0
+IBRD79070	ESES DPL2	Turkey ( TR )	$657034200 / $0
+IBRD83840	PL DPL Resiliance and Growth	Poland ( PL )	$899010000 / $0

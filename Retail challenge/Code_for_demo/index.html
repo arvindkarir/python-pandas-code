@@ -1,0 +1,467 @@
+{% extends 'base.html' %}
+
+{% block css %}
+    <style>
+        .ibox-content-height-200 {
+            min-height: 200px;
+        }
+    </style>
+{% endblock css %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <dl>
+                        <dt>Test URL:</dt>
+                        <dd>
+                            https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-kim-kardashian-0725-backgrid-1501097634.jpg
+                        </dd>
+                    </dl>
+                    <div class="input-group">
+                        <input id="in-url" class="form-control" type="text" placeholder="Image URL">
+                        <span class="input-group-btn">
+                                <button id="btn-url" type="button" class="btn btn-primary" value="">
+                                    Query Deepo
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <dl>
+                        <dt>Test URL:</dt>
+                        <dd>
+                            https://i.pinimg.com/originals/20/5b/58/205b58777551bca3a5b3e3047c6211e8.jpg
+                        </dd>
+                    </dl>
+                    <div class="input-group">
+                        <input id="in-url-algo" class="form-control" type="text" placeholder="Image URL">
+                        <span class="input-group-btn">
+                                <button id="btn-url-algo" type="button" class="btn btn-primary" value="">
+                                    Query Algo
+                                </button>
+                            </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Reference Photo</h5>
+                </div>
+                <div id="img-container" class="ibox-content ibox-content-height-200">
+                    <div class="sk-spinner sk-spinner-double-bounce">
+                        <div class="sk-double-bounce1"></div>
+                        <div class="sk-double-bounce2"></div>
+                    </div>
+                    <img id="img-url" alt="" src="" width="75%" title="image"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Articles of Clothing</h5>
+                </div>
+                <div id="img-segmented-container" class="ibox-content ibox-content-height-200">
+                    <div class="sk-spinner sk-spinner-double-bounce">
+                        <div class="sk-double-bounce1"></div>
+                        <div class="sk-double-bounce2"></div>
+                    </div>
+                    <div id="img-row-container" class="row"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
+
+
+{% block js %}
+    {# JS Libraries #}
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script>
+
+    <script>
+        (function () {
+            let csrftoken = $("[name=csrfmiddlewaretoken]").val();
+
+            // API URLs
+            let baseAPIURL = 'https://api.deepomatic.com/v0.7/';
+            let appID = '723789226283';
+            let adminKey = '6ba499216ffd4de1b9424223d9d27c80';
+            let testPayload = {
+                url: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/hbz-kim-kardashian-0725-backgrid-1501097634.jpg',
+                data: {
+                    "id": "285439058",
+                    "status": "success",
+                    "error": null,
+                    "date_created": "2018-04-21T23:36:26.744829Z",
+                    "date_updated": "2018-04-21T23:36:27.570860Z",
+                    "data": {
+                        "outputs": [{
+                            "labels": {
+                                "discarded": [],
+                                "predicted": [{
+                                    "threshold": 0.535,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.68997848,
+                                            "ymin": 0.329213262,
+                                            "ymax": 0.786584735,
+                                            "xmax": 0.956071675
+                                        }, "region_id": 1
+                                    },
+                                    "label_id": 6,
+                                    "score": 0.997308254,
+                                    "label_name": "pants"
+                                }, {
+                                    "threshold": 0.689,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.398410201,
+                                            "ymin": 0.869626582,
+                                            "ymax": 0.972977102,
+                                            "xmax": 0.485420913
+                                        }, "region_id": 138
+                                    },
+                                    "label_id": 5,
+                                    "score": 0.994397402,
+                                    "label_name": "shoe"
+                                }, {
+                                    "threshold": 0.647,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.35791263,
+                                            "ymin": 0.190054283,
+                                            "ymax": 0.359931201,
+                                            "xmax": 0.652516484
+                                        }, "region_id": 3
+                                    },
+                                    "label_id": 11,
+                                    "score": 0.987626612,
+                                    "label_name": "top-shirt"
+                                }, {
+                                    "threshold": 0.689,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.560032248,
+                                            "ymin": 0.772364318,
+                                            "ymax": 0.898075223,
+                                            "xmax": 0.634837568
+                                        }, "region_id": 67
+                                    },
+                                    "label_id": 5,
+                                    "score": 0.983634591,
+                                    "label_name": "shoe"
+                                }, {
+                                    "threshold": 0.535,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.287318468,
+                                            "ymin": 0.370404959,
+                                            "ymax": 0.821121633,
+                                            "xmax": 0.674198925
+                                        }, "region_id": 5
+                                    },
+                                    "label_id": 6,
+                                    "score": 0.983607948,
+                                    "label_name": "pants"
+                                }, {
+                                    "threshold": 0.689,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.670169,
+                                            "ymin": 0.754276931,
+                                            "ymax": 0.82788,
+                                            "xmax": 0.792005479
+                                        },
+                                        "region_id": 96
+                                    },
+                                    "label_id": 5,
+                                    "score": 0.963813,
+                                    "label_name": "shoe"
+                                }, {
+                                    "threshold": 0.689,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.758562744,
+                                            "ymin": 0.769975483,
+                                            "ymax": 0.850343049,
+                                            "xmax": 0.923008382
+                                        }, "region_id": 11
+                                    },
+                                    "label_id": 5,
+                                    "score": 0.950135648,
+                                    "label_name": "shoe"
+                                }, {
+                                    "threshold": 0.647,
+                                    "roi": {
+                                        "bbox": {
+                                            "xmin": 0.671788633,
+                                            "ymin": 0.00681762677,
+                                            "ymax": 0.37219587,
+                                            "xmax": 1
+                                        },
+                                        "region_id": 20
+                                    },
+                                    "label_id": 11,
+                                    "score": 0.858548582,
+                                    "label_name": "top-shirt"
+                                }]
+                            }
+                        }]
+                    },
+                    "subtasks": null
+                }
+            };
+
+            // jQuery elements
+            let $inpImgURL = $('#in-url');
+            let $btnSubmitURL = $('#btn-url');
+
+            let $inpAlgoImgURL = $('#in-url-algo');
+            let $btnAlgoSubmitURL = $('#btn-url-algo');
+
+            let $img = $('#img-url');
+            let $divImg = $('#img-container');
+            let $divImgSegmented = $('#img-segmented-container');
+            let $divImgRow = $('#img-row-container');
+
+            function csrfSafeMethod(method) {
+                // these HTTP methods do not require CSRF protection
+                return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+            }
+
+            function promisifiedAjax(options = {}) {
+                let defaultOptions = {
+                    method: 'GET',
+                };
+                let extendedOptions = $.extend(defaultOptions, options);
+                return new Promise((resolve, reject) => {
+                    return $.ajax(extendedOptions).done(resolve).fail(reject);
+                })
+            }
+
+            function queryDjangoAPI(apiURLPath, {payload = null, method = 'GET'} = {}) {
+                let queryURL = `${baseAPIURL}${apiURLPath}`;
+                let options = {
+                    url: queryURL,
+                    method: method,
+                    contentType: "application/json",
+                    beforeSend: function (xhr, settings) {
+                        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                        }
+                    },
+                };
+                if (method === 'POST') {
+                    options['data'] = JSON.stringify(payload);
+                }
+                return promisifiedAjax(options);
+            }
+
+            function queryAPI(apiURLPath, {payload = null, method = 'GET'} = {}) {
+                let queryURL = `${baseAPIURL}${apiURLPath}`;
+                let options = {
+                    url: queryURL,
+                    method: method,
+                    contentType: "application/json",
+                    beforeSend: function (request) {
+                        request.setRequestHeader("X-APP-ID", appID);
+                        request.setRequestHeader("X-API-KEY", adminKey);
+                    },
+                };
+                if (method === 'POST') {
+                    options['data'] = JSON.stringify(payload);
+                }
+                return promisifiedAjax(options);
+            }
+
+            function getTask(taskID) {
+                let urlPath = `tasks/${taskID}/`;
+                return queryAPI(urlPath)
+            }
+
+            function getImage(imageURL) {
+                let urlPath = `recognition/public/fashion-v4/inference/`;
+                return queryAPI(urlPath, {
+                    payload: {
+                        inputs: [
+                            {
+                                image: {
+                                    source: imageURL
+                                }
+                            }
+                        ],
+                    },
+                    method: 'POST'
+                })
+                    .then(res => pollTask(res.task_id))
+            }
+
+            function pollTask(taskID) {
+                let urlPath = `tasks/${taskID}/`;
+                return queryAPI(urlPath)
+                    .then((res) => {
+                        console.log("Polling", taskID, ", res = ", res);
+                        if (res.status === 'pending') {
+                            return Promise.delay(6000)
+                                .then(() => pollTask(taskID));
+                        } else if (res.status === 'success') {
+                            return Promise.resolve(res);
+                        } else {
+                            return Promise.reject(new Error('Polling task failed: ' + taskID));
+                        }
+                    });
+            }
+
+            function main() {
+                $btnSubmitURL.on("click", (e) => {
+                    $divImgRow.empty();
+                    $btnSubmitURL.attr('disabled', true);
+                    $btnAlgoSubmitURL.attr('disabled', true);
+                    $divImg.removeClass('hidden');
+                    $divImgSegmented.removeClass('hidden');
+
+                    $divImg.toggleClass('sk-loading');
+                    $divImgSegmented.toggleClass('sk-loading');
+
+                    let urlSubmitted = $inpImgURL.val();
+                    if (urlSubmitted !== null && urlSubmitted !== undefined && urlSubmitted.trim()) {
+                        let trimmedVal = urlSubmitted.trim();
+                        // TODO: unsafe set of src!!!!
+                        $img.attr('src', trimmedVal);
+
+                        return getImage(trimmedVal)
+                            .then(res => {
+                                let body = {
+                                    url: trimmedVal,
+                                    data: res
+                                };
+                                return promisifiedAjax({
+                                    url: '/segment/',
+                                    method: 'POST',
+                                    data: JSON.stringify(body),
+                                    contentType: "application/json",
+                                    beforeSend: function (xhr, settings) {
+                                        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                                            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                                        }
+                                    },
+                                })
+                            })
+                            .then(res => {
+                                $divImg.toggleClass('sk-loading');
+                                $divImgSegmented.toggleClass('sk-loading');
+
+                                for (let i of res) {
+                                    $divImgRow.append(`
+                                    <div class='col-lg-3 text-center'>
+                                        <img class="segmented" width="100%" src="{{ MEDIA_URL }}${i.href}" alt="${i.label_name}"/>
+                                        <span class="font-bold">${i.label_name}</span>
+                                        <div><button type="button" class="btn btn-primary" onclick="damnitneil(\'{{ MEDIA_URL }}${i.href})">Get</button></div>
+                                    </div>
+                                    `);
+                                }
+                                console.log("res = ", res);
+                            })
+                            .finally(() => {
+                                $btnSubmitURL.attr('disabled', false);
+                                $btnAlgoSubmitURL.attr('disabled', false);
+                            })
+                    } else {
+                        alert("url cannot be empty!");
+                    }
+                });
+                damnitneil = function(wheresangular) {
+                    console.log('f*ck', wheresangular);
+                    return Promise.resolve()
+                        .then(() => {
+                            return promisifiedAjax({
+                                url: '/wtf/?q='+wheresangular,
+                                method: 'GET',
+                                contentType: "application/json",
+                                beforeSend: function (xhr, settings) {
+                                    if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                                        xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                                    }
+                                },
+                            });
+                        })
+                        .then(res => {
+                            
+                            
+                            console.log("res = ", res);
+                        })
+                        .finally(() => {
+                        })
+
+                }
+                $btnAlgoSubmitURL.on("click", (e) => {
+                    $divImgRow.empty();
+                    $btnAlgoSubmitURL.attr('disabled', true);
+                    $btnSubmitURL.attr('disabled', true);
+                    $divImg.removeClass('hidden');
+                    $divImgSegmented.removeClass('hidden');
+
+                    $divImg.toggleClass('sk-loading');
+                    $divImgSegmented.toggleClass('sk-loading');
+
+                    let urlSubmitted = $inpAlgoImgURL.val();
+                    if (urlSubmitted !== null && urlSubmitted !== undefined && urlSubmitted.trim()) {
+                        let trimmedVal = urlSubmitted.trim();
+                        // TODO: unsafe set of src!!!!
+                        $img.attr('src', trimmedVal);
+
+                        return Promise.resolve()
+                            .then(() => {
+                                let body = {
+                                    url: trimmedVal,
+                                };
+                                return promisifiedAjax({
+                                    url: '/algo/',
+                                    method: 'POST',
+                                    data: JSON.stringify(body),
+                                    contentType: "application/json",
+                                    beforeSend: function (xhr, settings) {
+                                        if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+                                            xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                                        }
+                                    },
+                                });
+                            })
+                            .then(res => {
+                                $divImg.toggleClass('sk-loading');
+                                $divImgSegmented.toggleClass('sk-loading');
+                                for (let i of res) {
+                                    $divImgRow.append(`
+                                    <div class='col-lg-3 text-center'>
+                                        <img class="segmented" width="100%" src="{{ MEDIA_URL }}${i.href}" alt="${i.label_name}"/>
+                                        <span class="font-bold">${i.label_name}</span>
+                                    </div>
+                                    `);
+                                }
+                                console.log("res = ", res);
+                            })
+                            .finally(() => {
+                                $btnSubmitURL.attr('disabled', false);
+                                $btnAlgoSubmitURL.attr('disabled', false);
+                            })
+                    } else {
+                        alert("url cannot be empty!");
+                    }
+                });
+            }
+
+            window.onload = main;
+        })();
+    </script>
+{% endblock js %}

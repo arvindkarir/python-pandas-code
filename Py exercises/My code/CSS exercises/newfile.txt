@@ -1,0 +1,20 @@
+ref	state	city	dateof		datein
+
+5	TX	Austin	04/04/2011		03/28/2011
+
+6	TX	Austin	06/01/2011		04/12/2011
+
+6	MD	Baltimore	04/08/2011		03/28/2011
+
+5	MN	St. Paul	04/22/2011		04/13/2011
+
+8	FL	Tampa	04/08/2011		03/29/2011
+
+9	FL	Tampa	06/01/2011		04/18/2011
+
+7	NJ	Trenton	04/08/2011		03/29/2011
+
+6	NJ	Waretown	06/01/2011		04/19/2011
+
+5	MN	Welch	04/08/2011		03/29/2011
+

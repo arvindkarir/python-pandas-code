@@ -1,0 +1,30 @@
+wave1 = {'blue': 400,'green': 500, 'yellow':600,'red':700}
+
+wave2 = {'orange': 630,'green': 500, 'yellow':600,'red':700}
+
+
+
+def duplKeys(val1, val2):
+  
+	kkeys1 = wave1.keys()
+  
+	kkeys2 = wave2.keys()
+  
+	duplicates = []
+  
+	for k in kkeys1:
+    
+		for k in kkeys2:
+      
+			if k in kkeys1:
+        
+			duplicates.append(k)
+    
+		return duplicates
+      
+  
+
+
+
+
+print(duplKeys(wave1, wave2))

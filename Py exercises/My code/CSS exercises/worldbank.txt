@@ -1,0 +1,94 @@
+IBRD83610	Justice Sector Insttnl Strengthenin	Kazakhstan ( KZ ) 	$42000 / $12000
+IBRD81190	PH - Regl Infrastructure for Growth	Philippines ( PH )	$122617.91 / $0
+IBRD83900	Trade Promotion and Quality Infrast	Armenia ( AM )	$125000 / $0
+IBRD83770	Transmission Grid Strengthening Pro	Georgia ( GE )	$150000 / $0
+IBRD83780	Fujian Fishing Ports Project	China ( CN )	$150000 / $0
+IBRD83700	Jiaozuo Green Transport & Safety Im	China ( CN )	$250000 / $0
+IBRD83810	NAT'L WATER SUPPLY & SAN II	Azerbaijan ( AZ )	$375000 / $0
+IBRD83690	CN Yunnan Honghe Prefecture Urban T	China ( CN )	$375406.35 / $0
+IBRD83570	CATASTROPHE DEFERRED DRAWDOWN OPTIO	Sri Lanka ( LK )	$510000 / $0
+IBRD83910	Second Urban Infrastructure Proj (U	Ukraine ( UA )	$750000 / $0
+IBRD83870	District Heating Energy Efficiency	Ukraine ( UA )	$830000 / $0
+IBRD83800	REG & MUNI INFRA DEV II	Georgia ( GE )	$2075000 / $0
+IBRD71290	GT Financial Sector TA Loan	Guatemala ( GT )	$3524644.99 / $2214792.74
+IBRD83999	Justice Sector Insttnl Strengthenin	Kazakhstan ( KZ ) 	$40000 / $0
+IBRD71330	MX Municipal Dev in Rural Areas	Mexico ( MX )	$4000000 / $4000000
+IBRD71250	6O-KN EDUCATION (APL01)	St. Kitts and Nevis ( KN )	$4838271.97 / $3532243.65
+IBRD83710	Renewable Energy Integration	Turkey ( TR )	$5022791.3 / $0
+IBRD71310	DZ-MORTGAGE FINANCE TECHNICAL ASSIS	Algeria ( DZ )	$5122509.48 / $5122509.48
+IBRD71390	DZ-URBAN NATURAL HAZARD VULNERABILI	Algeria ( DZ )	$5561080.48 / $5561080.48
+IBRD81180	HIGHER ED COMPTET	Montenegro ( ME )	$5873337.11 / $0
+IBRD83660	Development Policy Operation	Moldova ( MD )	$9000000 / $0
+IBRD83650	Health Sector Reform Project	Croatia ( HR )	$9386625 / $0
+IBRD83830	MA-Rural Roads II	Morocco ( MA )	$11553975.17 / $0
+IBRD71490	JM- Reform of Secondary Ed. (ROSE I	Jamaica ( JM )	$11848476.06 / $6804006.95
+IBRD81370	LB - Cultural Heritage and Urban De	Lebanon ( LB )	$12655718.08 / $0
+IBRD71350	SV JUDICIAL MODERNIZATION PROJECT	El Salvador ( SV )	$16942843.74 / $10580945.18
+IBRD79050	ID-Java-Bali Pwr Sector & Strength	Indonesia ( ID )	$18718505.27 / $0
+IBRD79080	BR SP Sust Rural Dev & Access to Ma	Brazil ( BR )	$18901698.85 / $0
+IBRD73680	PE Real Property Rights II	Peru ( PE )	$19072793.46 / $0
+IBRD73710	DO Youth Development Project	Dominican Republic ( DO )	$22813587.95 / $6746254.18
+IBRD81360	IN: Assam State Roads Project	India ( IN )	$26852351.92 / $0
+IBRD73880	CR -Mainstreaming Market-Based Inst	Costa Rica ( CR )	$30000000 / $7655118.44
+IBRD47800	QUAL EDUC EQUAL ACCESS (APL #1)	Ukraine ( UA )	$30007504.48 / $7180461.85
+IBRD81210	Jakarta Urgent Flood Mitigation Pro	Indonesia ( ID )	$30445955.12 / $0
+IBRD71530	PH - ARMM Social Fund	Philippines ( PH )	$31641254.81 / $10558660.72
+IBRD71280	EDUC IMPRVMT	Lithuania ( LT )	$33892178.55 / $37965969.83
+IBRD71510	TN-NW Mountainous and For. Areas De	Tunisia ( TN )	$34118117.13 / $13834764.91
+IBRD79010	BR AIDS-SUS	Brazil ( BR )	$34220039.54 / $0
+IBRD73870	BR Ceara Rural Poverty Reduction Pr	Brazil ( BR )	$37500000 / $12509999.92
+IBRD78990	CN-Jilin Food Safety	China ( CN )	$37924283.36 / $0
+IBRD81350	BR Pernambuco - Rural Economic Incl	Brazil ( BR )	$40943757.23 / $0
+IBRD78960	Public Expenditure Crisis DPL	Bosnia and Herzegovina ( BA )	$44058255.61 / $0
+IBRD73800	PK:Punjab Municipal Services Improv	Pakistan ( PK )	$45526699.78 / $1900786.92
+IBRD76520	MX Sustainable Rural Development	Mexico ( MX )	$46800513.19 / $0
+IBRD73660	PE Rural Electrification	Peru ( PE )	$49338861.93 / $0
+IBRD71520	PHSecond Agrarian Reform Communitie	Philippines ( PH )	$49780675.9 / $16606834.1
+IBRD79090	CN-Henan Ecological Livestock Proje	China ( CN )	$50184033.69 / $0
+IBRD71270	MX Tax Admin Institutional Developm	Mexico ( MX )	$52000000 / $36397278.16
+IBRD47820	IR Alborz Integrated Land & Water	Iran, Islamic Republic of ( IR )	$63584579.77 / $46238971.99
+IBRD73820	AR APL2 Urban Flood Prev.&Drainage	Argentina ( AR )	$63901205.36 / $14769546.28
+IBRD73650	CO-(APL2) Disaster Vulnerability Re	Colombia ( CO )	$64186676.39 / $18703115.86
+IBRD71320	MX Savings & Credit Sector Strength	Mexico ( MX )	$64600000 / $44955224.91
+IBRD83940	Georgia Competitiveness and Growth	Georgia ( GE )	$70000000 / $0
+IBRD73890	TR Access to Fin for SMEs	Turkey ( TR )	$70592556.25 / $23278625
+IBRD71500	JM Bank Restructuring and Debt Mgmt	Jamaica ( JM )	$75000000 / $45000000
+IBRD79100	CN-Sustainable Dev. in Poor Rural A	China ( CN )	$80506404.72 / $0
+IBRD78980	CN - Nanning Urban Environment	China ( CN )	$83181980.65 / $0
+IBRD79000	PK: Punjab Barrages Improvement II	Pakistan ( PK )	$98819245.87 / $0
+IBRD47810	CN-LIUZHOU ENVIRONMENT MGMT	China ( CN )	$100000000 / $25220000
+IBRD76530	JM Fiscal & Debt Sust. DPL	Jamaica ( JM )	$100000000 / $4000000
+IBRD79020	ACCESS TO FINANCE FOR SME II	Turkey ( TR )	$100000000 / $0
+IBRD73850	AR Basic Municipal Services Project	Argentina ( AR )	$100052886.5 / $24908070.88
+IBRD71540	TN-Municipal Development III	Tunisia ( TN )	$102392519.3 / $63935311.29
+IBRD73700	MA-Public Admin. Dev. Policy Ln II	Morocco ( MA )	$125758951 / $5313240.95
+IBRD81170	BR RJ Mass Transit  II	Brazil ( BR )	$127944337.5 / $0
+IBRD73900	TR Access to Fin for SMEs	Turkey ( TR )	$133624326.5 / $44653289.07
+IBRD47850	PAL 3	Bulgaria ( BG )	$135626278.5 / $58784220
+IBRD81200	MX Forests and Climate Change (SIL)	Mexico ( MX )	$140071124.9 / $0
+IBRD78970	IN: AP Water Sector Improvement Pro	India ( IN )	$142496740.5 / $0
+IBRD47870	RAIL RESTRUCT (APL#1)	Turkey ( TR )	$148045577.5 / $70805251.52
+IBRD71300	GT Financial Sector Adjustment Loan	Guatemala ( GT )	$150000000 / $95550000
+IBRD73860	BR-2nd Progr. Sustn.& Equit Growth	Brazil ( BR )	$150000000 / $50040000
+IBRD71380	UY SSAL	Uruguay ( UY )	$151520000 / $151520000
+IBRD71370	UY Structural Adjustment Loan	Uruguay ( UY )	$152705052 / $104086283.9
+IBRD71340	CO- Social Sector Adjustment	Colombia ( CO )	$155000000 / $108500000
+IBRD79030	ACCESS TO FINANCE FOR SME II	Turkey ( TR )	$173765210.8 / $0
+IBRD73840	ROAD MAINTENANCE & REHAB 3	Poland ( PL )	$193948722.6 / $67734807.51
+IBRD47830	Northern Cities Water Supply &	Iran, Islamic Republic of ( IR )	$196685187.2 / $67229054.38
+IBRD79040	ACCESS TO FINANCE FOR SME II	Turkey ( TR )	$200000000 / $0
+IBRD71360	MX Programmatic EnvSAL	Mexico ( MX )	$202020000 / $202020000
+IBRD83640	ECONOMIC RECOVERY DPL 2	Croatia ( HR )	$202102500 / $0
+IBRD83760	BR Amazonas DPL	Brazil ( BR )	$216000000 / $0
+IBRD83580	TN - Governance Opportunities Jobs	Tunisia ( TN )	$242507718.5 / $0
+IBRD83790	RS:Strengthening Fiscal & Water Mgm	Brazil ( BR )	$280000000 / $0
+IBRD83630	MA Capital Market Develop. & SME Fi	Morocco ( MA )	$291073945.6 / $0
+IBRD73670	MX Competitiveness DPL	Mexico ( MX )	$300760000 / $105266000
+IBRD71260	MX Tax Reform Adjustment Loan	Mexico ( MX )	$303040000 / $303040000
+IBRD83850	GT 2nd Prog DPL Fiscal Space	Guatemala ( GT )	$340000000 / $0
+IBRD73690	AR-Heads of Household Transition Pr	Argentina ( AR )	$350000000 / $152249999.9
+IBRD47840	SEISMIC RISK MITIGATION	Turkey ( TR )	$426163774.9 / $157216003
+IBRD73830	BR - Road Transport Project	Brazil ( BR )	$433240074.4 / $391385400.2
+IBRD79060	ID-BOS KITA Project	Indonesia ( ID )	$500000000 / $0
+IBRD79070	ESES DPL2	Turkey ( TR )	$657034200 / $0
+IBRD83840	PL DPL Resiliance and Growth	Poland ( PL )	$899010000 / $0
